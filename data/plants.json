@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name_en": "Mango",
+        "name_mr": "आंबा",
+        "category": "Fruit",
+        "price": "₹150",
+        "image": "../assets/gallery/mango.jpg"
+    },
+    {
+        "id": 2,
+        "name_en": "Guava",
+        "name_mr": "पेरू",
+        "category": "Fruit",
+        "price": "₹80",
+        "image": "../assets/gallery/guava.jpg"
+    }
+]
