@@ -1,40 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Ganesh Rop Vatika | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Rop Vatika | Nursery in Yawat</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/plants.css">
+    <link rel="stylesheet" href="../css/effects.css">
+    <link rel="stylesheet" href="../css/slider.css">
+
+    <!-- JS -->
+    <script src="../js/slider.js" defer></script>
+    <script src="../js/effects.js" defer></script>
+
+    <link rel="stylesheet" href="../css/preloader.css">
+    <script src="../js/preloader.js" defer></script>
+
+
+    <style>
+        .navbar { position: sticky; top: 0; z-index: 999; }
+    </style>
 </head>
+
 <body>
 
-<div class="navbar">
-    <img src="../assets/logo.png" width="80">
-    <div>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="plants.html">Plants</a>
-        <a href="categories.html">Categories</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="videos.html">Videos</a>
-        <a href="contact.html">Contact</a>
+    <!-- PRELOADER -->
+<div id="preloader">
+    <div class="flower-loader">
+        <div class="petal petal1"></div>
+        <div class="petal petal2"></div>
+        <div class="petal petal3"></div>
+        <div class="petal petal4"></div>
+        <div class="center-dot"></div>
     </div>
 </div>
 
-<div class="banner" style="background-image:url('../assets/banner-english.jpg');">
-    <div>
-        <h1>Ganesh Rop Vatika</h1>
-        <h3>Premium Plants & Seedlings</h3>
-        <a class="btn primary" href="plants.html">Explore Plants</a>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <img src="../assets/logo.png" class="logo">
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="plants.html">Plants</a>
+            <a href="categories.html">Categories</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="videos.html">Videos</a>
+            <a href="contact.html">Contact</a>
+        </div>
     </div>
-</div>
 
-<div class="section">
-    <h2>Welcome to Ganesh Rop Vatika</h2>
-    <p>
-    Located in Yawat, Daund, we offer over 500 premium plant varieties...
-    </p>
-</div>
+    <!-- ===============================================================
+         HERO SLIDER (Full Width)
+    =============================================================== -->
+    <div class="slider-container">
 
-<script src="js/chatbot.js"></script>
+        <div class="slide active">
+            <img src="https://images.pexels.com/photos/4751979/pexels-photo-4751979.jpeg">
+            <div class="slide-text dark-overlay">
+                <h1>Ganesh Rop Vatika<br>गणेश रोप वाटिका</h1>
+                <p>Your Trusted Nursery for Plants & Saplings<br>आपल्या विश्वासाचे रोपवाटिका</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="https://images.pexels.com/photos/4505165/pexels-photo-4505165.jpeg">
+            <div class="slide-text dark-overlay">
+                <h1>Fresh Healthy Saplings<br>ताजी आणि निरोगी रोपे</h1>
+                <p>Over 500+ Plant Varieties<br>५००+ विविध प्रकारची रोपे</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="https://images.pexels.com/photos/2129420/pexels-photo-2129420.jpeg">
+            <div class="slide-text dark-overlay">
+                <h1>Fruit • Flower • Indoor • Outdoor<br>फळे • फुले • घरगुती • बाहेरील</h1>
+                <p>Visit our beautiful nursery today<br>आजच आमच्या रोपवाटिकेला भेट द्या</p>
+            </div>
+        </div>
+
+        <!-- Slider controls -->
+        <button class="prev-btn">&#10094;</button>
+        <button class="next-btn">&#10095;</button>
+    </div>
+
+    <!-- ===============================================================
+         VIDEO HIGHLIGHT SECTION
+    =============================================================== -->
+    <section class="section">
+        <h2 class="section-title fade-up">Featured Video</h2>
+
+        <div class="center fade-up">
+            <iframe width="750" height="420"
+                src="https://www.youtube.com/embed/V89Fc19MbyY"
+                frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="center">
+            <a class="btn-primary" href="videos.html">See More Videos</a>
+        </div>
+    </section>
+
+    <!-- ===============================================================
+         GALLERY PREVIEW SECTION
+    =============================================================== -->
+    <section class="section">
+        <h2 class="section-title fade-up">Gallery Preview</h2>
+
+        <div class="gallery-preview fade-up">
+            <img src="https://images.pexels.com/photos/2129423/pexels-photo-2129423.jpeg">
+            <img src="https://images.pexels.com/photos/1755838/pexels-photo-1755838.jpeg">
+            <img src="https://images.pexels.com/photos/4505165/pexels-photo-4505165.jpeg">
+            <img src="https://images.pexels.com/photos/4505170/pexels-photo-4505170.jpeg">
+        </div>
+
+        <div class="center">
+            <a class="btn-primary" href="gallery.html">View Full Gallery</a>
+        </div>
+    </section>
+
+    <!-- ===============================================================
+         ABOUT PREVIEW SECTION
+    =============================================================== -->
+    <section class="section about-preview fade-up">
+        <h2 class="section-title">About Ganesh Rop Vatika</h2>
+
+        <p class="text-center">
+            Located in Yawat, Daund — We provide over 500+ varieties of Fruit Plants, Flowering Plants,
+            Indoor Plants, Outdoor Plants, Decorative Plants, Seasonal Plants and Medicinal Plants.
+        </p>
+
+        <div class="center">
+            <a class="btn-primary" href="about.html">Know More</a>
+        </div>
+    </section>
+
+    <!-- ===============================================================
+         GOOGLE MAP SECTION
+    =============================================================== -->
+    <section class="section fade-up">
+        <h2 class="section-title">Locate Us</h2>
+
+        <div class="center">
+            <iframe
+                src="https://www.google.com/maps?q=Ganesh+Rop+Vatika+Yawat+Daund&output=embed"
+                width="90%" height="400" style="border:0;">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- ===============================================================
+         FLOATING BUTTONS
+    =============================================================== -->
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/919822143644?text=Hello%20Ganesh%20Rop%20Vatika!" 
+       class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+             class="whatsapp-icon">
+    </a>
+
+    <!-- Call -->
+    <a href="tel:+919822143644" class="call-float">
+        <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" class="call-icon">
+    </a>
+
+    <!-- Directions -->
+    <a href="https://www.google.com/maps?q=Ganesh+Rop+Vatika+Yawat+Daund"
+       class="direction-float" target="_blank">
+       <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" class="direction-icon">
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/ganesh_rop_vatika_01" 
+       class="insta-float" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="insta-icon">
+    </a>
+
+    <!-- ===============================================================
+         FOOTER
+    =============================================================== -->
+    <footer class="main-footer fade-up">
+        <div class="footer-grid">
+
+            <div>
+                <h3>Ganesh Rop Vatika</h3>
+                <p>Bhuleshwar Road, Yawat, Daund - 412204</p>
+                <p>Phone: 9420168616 / 9822143644</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="plants.html">Plants</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+                <a href="https://www.instagram.com/ganesh_rop_vatika_01" target="_blank">Instagram</a>
+                <a href="https://www.youtube.com/@GaneshDorge-zk7zx" target="_blank">YouTube</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Ganesh Rop Vatika | All Rights Reserved
+        </div>
+    </footer>
+
 </body>
 </html>

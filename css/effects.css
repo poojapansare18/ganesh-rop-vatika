@@ -1,0 +1,150 @@
+/* ============================================
+   GANESH ROP VATIKA — EFFECTS & ANIMATIONS
+   Elegant Floral Animation System
+============================================ */
+
+
+
+/* ============================================
+   GLOBAL PAGE LOAD FADE-IN
+============================================ */
+body {
+    opacity: 0;
+    animation: fadeInPage 1.2s ease forwards;
+}
+
+@keyframes fadeInPage {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+/* ============================================
+   BUTTON HOVER ANIMATION
+============================================ */
+.btn, .btn-orange {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::after, .btn-orange::after {
+    content: "";
+    position: absolute;
+    width: 160%;
+    height: 160%;
+    top: -60%;
+    left: -60%;
+    background: rgba(255,255,255,0.3);
+    transform: rotate(45deg) translateX(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.btn:hover::after, .btn-orange:hover::after {
+    left: 120%;
+    opacity: 1;
+}
+
+
+/* ============================================
+   CARD HOVER ZOOM + FLOAT
+============================================ */
+.card {
+    transform: translateY(0px);
+    transition: 0.35s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+
+/* ============================================
+   IMAGE LIGHT ZOOM INSIDE CARD
+============================================ */
+.card img {
+    transition: 0.5s ease;
+}
+
+.card:hover img {
+    transform: scale(1.07);
+}
+
+
+/* ============================================
+   FLOATING FLOWER PETAL ANIMATION
+============================================ */
+@keyframes flowerFloat {
+    0%   { transform: translateY(0px) rotate(0deg); opacity: 1; }
+    50%  { transform: translateY(-6px) rotate(3deg); opacity: 0.7; }
+    100% { transform: translateY(0px) rotate(0deg); opacity: 1; }
+}
+
+.petal-float {
+    animation: flowerFloat 3s ease-in-out infinite;
+}
+
+
+/* ============================================
+   SECTION SOFT FADE-IN SCROLL ANIMATION
+============================================ */
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUpSection 1s ease forwards;
+}
+
+@keyframes fadeUpSection {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+/* ============================================
+   SOCIAL BADGE HOVER BOUNCE
+============================================ */
+.social-badges a {
+    transition: 0.35s ease;
+}
+
+.social-badges a:hover {
+    transform: translateY(-6px) scale(1.05);
+}
+
+
+/* ============================================
+   SLIDER IMAGE ZOOM EFFECT
+============================================ */
+.slide {
+    transform: scale(1.02);
+    transition: opacity 1.2s ease-in-out, transform 6s ease;
+}
+
+.slide.active {
+    transform: scale(1.0);
+}
+
+
+/* ============================================
+   NAVBAR LINK HIGHLIGHT UNDERLINE EFFECT
+============================================ */
+.navbar a {
+    position: relative;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: #ffd7a3;
+    transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}

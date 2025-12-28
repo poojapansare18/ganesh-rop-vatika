@@ -2,26 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ganesh Rop Vatika | Choose Language</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Rop Vatika | Select Language</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            background: #F5F5F5;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .landing-container {
+            background: white;
+            display: inline-block;
+            padding: 40px 60px;
+            border-radius: 14px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+        }
+
+        .landing-container h1 {
+            color: #017E7E;
+            margin-bottom: 10px;
+            font-size: 34px;
+        }
+
+        .landing-container h2 {
+            color: #D97706;
+            margin-bottom: 25px;
+            font-size: 26px;
+        }
+
+        .landing-container p {
+            margin: 8px 0;
+            color: #444;
+            font-size: 18px;
+        }
+
+        .btn-group {
+            margin-top: 25px;
+        }
+
+        .btn-lg {
+            display: inline-block;
+            padding: 16px 36px;
+            margin: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn-teal {
+            background: #017E7E;
+        }
+
+        .btn-orange {
+            background: #D97706;
+        }
+    </style>
 </head>
-<body class="landing">
+<body>
 
-<div class="container-center">
-    <img src="assets/logo.png" class="logo">
+<div class="landing-container">
 
+    <!-- LOGO -->
+    <img src="assets/logo.png" class="logo" alt="GRV Logo">
+
+    <!-- TITLES -->
     <h1>Welcome to Ganesh Rop Vatika</h1>
     <h2>गणेश रोप वाटिकेत आपले स्वागत आहे</h2>
 
+    <!-- TEXT -->
     <p>Please choose your preferred language</p>
-    <p>कृपया तुमची भाषा निवडा</p>
+    <p>कृपया आपली भाषा निवडा</p>
 
+    <!-- BUTTONS -->
     <div class="btn-group">
-        <a href="english/index.html" class="btn primary">English</a>
-        <a href="marathi/index.html" class="btn secondary">मराठी</a>
+        <a href="english/index.html" class="btn-lg btn-teal">English</a>
+        <a href="marathi/index.html" class="btn-lg btn-orange">मराठी</a>
     </div>
+
 </div>
 
-<script src="js/chatbot.js"></script>
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/919822143644?text=Hello%20Ganesh%20Rop%20Vatika!%20I%20want%20more%20information."
+   class="whatsapp-float" target="_blank">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+         alt="WhatsApp" class="whatsapp-icon">
+
+</a>
+
+<!-- CALL FLOATING BUTTON -->
+<a href="tel:+919822143644" class="call-float">
+    <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" 
+         class="call-icon" alt="Call Now">
+</a>
+
+<!-- DIRECTIONS FLOATING BUTTON -->
+<a href="https://www.google.com/maps/search/?api=1&query=Ganesh+Rop+Vatika+Yawat+Daund"
+   class="direction-float" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png"
+         class="direction-icon" alt="Directions">
+</a>
+
 </body>
 </html>

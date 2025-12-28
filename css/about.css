@@ -1,0 +1,115 @@
+/* ============================================================
+   ABOUT PAGE — GANESH ROP VATIKA
+=========================================================== */
+
+.about-hero {
+    background: url("https://images.pexels.com/photos/2129420/pexels-photo-2129420.jpeg") center/cover;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.about-hero h1 {
+    font-size: 42px;
+    font-weight: 800;
+    text-shadow: 0 3px 8px rgba(0,0,0,0.4);
+}
+
+.about-hero p {
+    font-size: 20px;
+    margin-top: 8px;
+    opacity: 0.9;
+}
+
+/* Story section */
+.about-text {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.8;
+    padding-bottom: 15px;
+}
+
+/* Why choose us grid */
+.why-grid {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.why-card {
+    background: white;
+    padding: 22px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.why-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+.why-card img {
+    width: 65px;
+    margin-bottom: 12px;
+}
+
+/* Photo strip */
+.photo-strip {
+    display: flex;
+    gap: 10px;
+    width: 98%;
+    margin: 25px auto;
+}
+
+.photo-strip img {
+    width: 33%;
+    border-radius: 14px;
+}
+
+/* Owner section */
+.owner-box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.owner-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+/* CTA Section */
+.cta-section {
+    background: #1d483d;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 14px;
+    margin: 40px auto;
+    width: 85%;
+}
+
+.cta-section h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.cta-section .btn-primary {
+    background: white;
+    color: #1d483d;
+}

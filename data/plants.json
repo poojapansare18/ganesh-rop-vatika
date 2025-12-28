@@ -1,18 +1,188 @@
 [
-    {
-        "id": 1,
-        "name_en": "Mango",
-        "name_mr": "आंबा",
-        "category": "Fruit",
-        "price": "₹150",
-        "image": "../assets/gallery/mango.jpg"
-    },
-    {
-        "id": 2,
-        "name_en": "Guava",
-        "name_mr": "पेरू",
-        "category": "Fruit",
-        "price": "₹80",
-        "image": "../assets/gallery/guava.jpg"
-    }
+  {
+    "id": 1,
+    "name_en": "Rose Plant",
+    "name_mr": "गुलाब",
+    "category": "Flower",
+    "price": "₹40",
+    "badge": "Best Seller",
+    "image": "https://images.pexels.com/photos/2129423/pexels-photo-2129423.jpeg"
+  },
+  {
+    "id": 2,
+    "name_en": "Mogra (Jasmine)",
+    "name_mr": "मोगरा",
+    "category": "Flower",
+    "price": "₹60",
+    "badge": "Best Seller",
+    "image": "https://images.pexels.com/photos/908874/pexels-photo-908874.jpeg"
+  },
+  {
+    "id": 3,
+    "name_en": "Marigold",
+    "name_mr": "झेंडू",
+    "category": "Flower",
+    "price": "₹20",
+    "badge": "New Arrival",
+    "image": "https://images.pexels.com/photos/139037/pexels-photo-139037.jpeg"
+  },
+  {
+    "id": 4,
+    "name_en": "Hibiscus",
+    "name_mr": "जास्वंद",
+    "category": "Flower",
+    "price": "₹50",
+    "badge": "",
+    "image": "https://images.pexels.com/photos/4751955/pexels-photo-4751955.jpeg"
+  },
+
+  {
+    "id": 5,
+    "name_en": "Mango Plant",
+    "name_mr": "आंबा",
+    "category": "Fruit",
+    "price": "₹120",
+    "badge": "Best Seller",
+    "image": "https://images.pexels.com/photos/574919/pexels-photo-574919.jpeg"
+  },
+  {
+    "id": 6,
+    "name_en": "Guava Plant",
+    "name_mr": "पेरू",
+    "category": "Fruit",
+    "price": "₹90",
+    "badge": "",
+    "image": "https://images.pexels.com/photos/16158194/pexels-photo-16158194.jpeg"
+  },
+  {
+    "id": 7,
+    "name_en": "Banana Sapling",
+    "name_mr": "केळी",
+    "category": "Fruit",
+    "price": "₹25",
+    "badge": "",
+    "image": "https://images.pexels.com/photos/46551/banana-tropical-fruit-yellow-46551.jpeg"
+  },
+  {
+    "id": 8,
+    "name_en": "Papaya Plant",
+    "name_mr": "पपई",
+    "category": "Fruit",
+    "price": "₹35",
+    "badge": "New Arrival",
+    "image": "https://images.pexels.com/photos/13592781/pexels-photo-13592781.jpeg"
+  },
+
+  {
+    "id": 9,
+    "name_en": "Aloe Vera",
+    "name_mr": "कोरफड",
+    "category": "Medicinal",
+    "price": "₹30",
+    "badge": "Best Seller",
+    "image": "https://images.pexels.com/photos/66282/aloe-vera-herb-plant-juice-66282.jpeg"
+  },
+  {
+    "id": 10,
+    "name_en": "Tulsi",
+    "name_mr": "तुळस",
+    "category": "Medicinal",
+    "price": "₹20",
+    "badge": "",
+    "image": "https://images.pexels.com/photos/60740/basil-herb-food-italian-60740.jpeg"
+  },
+
+  {
+    "id": 11,
+    "name_en": "Areca Palm",
+    "name_mr": "अरेका पाम",
+    "category": "Indoor",
+    "price": "₹180",
+    "badge": "Best Seller",
+    "image": "https://images.pexels.com/photos/2129425/pexels-photo-2129425.jpeg"
+  },
+  {
+    "id": 12,
+    "name_en": "Money Plant",
+    "name_mr": "मनी प्लांट",
+    "category": "Indoor",
+    "price": "₹40",
+    "badge": "",
+    "image": "https://images.pexels.com/photos/5699666/pexels-photo-5699666.jpeg"
+  },
+  {
+    "id": 13,
+    "name_en": "Snake Plant",
+    "name_mr": "स्नेक प्लांट",
+    "category": "Indoor",
+    "price": "₹110",
+    "badge": "New Arrival",
+    "image": "https://images.pexels.com/photos/5699669/pexels-photo-5699669.jpeg"
+  },
+
+  {
+    "id": 14,
+    "name_en": "Neem Sapling",
+    "name_mr": "नीम",
+    "category": "Outdoor",
+    "price": "₹15",
+    "badge": "",
+    "image": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg"
+  },
+  {
+    "id": 15,
+    "name_en": "Ashoka Plant",
+    "name_mr": "अशोक",
+    "category": "Outdoor",
+    "price": "₹55",
+    "badge": "",
+    "image": "https://images.pexels.com/photos/11458818/pexels-photo-11458818.jpeg"
+  },
+
+  {
+    "id": 16,
+    "name_en": "Seasonal Tomato Plant",
+    "name_mr": "टोमॅटो",
+    "category": "Seasonal",
+    "price": "₹10",
+    "badge": "",
+    "image": "https://images.pexels.com/photos/1223649/pexels-photo-1223649.jpeg"
+  },
+  {
+    "id": 17,
+    "name_en": "Seasonal Chili Plant",
+    "name_mr": "मिरची",
+    "category": "Seasonal",
+    "price": "₹10",
+    "badge": "",
+    "image": "https://images.pexels.com/photos/934066/pexels-photo-934066.jpeg"
+  },
+  {
+    "id": 18,
+    "name_en": "Seasonal Brinjal Plant",
+    "name_mr": "वांगी",
+    "category": "Seasonal",
+    "price": "₹10",
+    "badge": "New Arrival",
+    "image": "https://images.pexels.com/photos/1437590/pexels-photo-1437590.jpeg"
+  },
+
+  {
+    "id": 19,
+    "name_en": "Aparajita",
+    "name_mr": "अपराजिता",
+    "category": "Flower",
+    "price": "₹25",
+    "badge": "",
+    "image": "https://images.pexels.com/photos/16137991/pexels-photo-16137991.jpeg"
+  },
+  {
+    "id": 20,
+    "name_en": "Night Queen (Raat Rani)",
+    "name_mr": "रात रानी",
+    "category": "Flower",
+    "price": "₹50",
+    "badge": "",
+    "image": "https://images.pexels.com/photos/1408221/pexels-photo-1408221.jpeg"
+  }
 ]
